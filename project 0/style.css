@@ -1,0 +1,66 @@
+
+nav {
+    background-color: rgb(81, 55, 55); /* Dark grey background */
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white; /* White text */
+    text-decoration: none; /* Removes the underline */
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s; /* Makes the color change smooth */
+}
+
+nav a:hover {
+    background-color: #a0785a; /* Lighter grey when hovering */
+    border-radius: 4px;
+}
+
+h1 {
+    color:  rgb(81, 55, 55);  
+    font-size: 2.5rem; 
+    font-weight: 700;
+    margin-bottom: 1.5px;
+    letter-spacing: -0.5px; 
+    border-bottom: 2px solid  rgb(81, 55, 55);  
+
+    padding-bottom: 5px;
+}
+
+h2 {
+    color:  rgb(81, 55, 55);  
+    font-size: 2.0rem; 
+    font-weight: 700;
+}
+
+body {
+    background-color: #fffdf5 ;
+    
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  .profile-img {
+    width: 200px;  /* Adjust this number to your liking */
+    height: auto;   /* This keeps the photo from looking squished */
+    border-radius: 10px; /* Optional: adds nice rounded corners */
+}
